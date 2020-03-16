@@ -39,8 +39,8 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-holiday_supplies[:winter].merge!(:columbus_day)) 
-
+holiday_supplies[:winter].merge!(:columbus_day => []) 
+holiday_supplies
 end
 
 def all_winter_holiday_supplies(holiday_hash)
